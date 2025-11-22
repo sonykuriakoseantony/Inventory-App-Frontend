@@ -15,9 +15,9 @@ function Replenishment() {
     fetchProducts();
   }, [])
 
-  useEffect(() => {
-    refreshReplenishments();
-  }, [products])
+  // useEffect(() => {
+  //   refreshReplenishments();
+  // }, [products])
 
   // Fetch all products
   const fetchProducts = async () => {
