@@ -1,0 +1,40 @@
+
+@import "tailwindcss";
+
+:root {
+  --font-primary: "Sofia Sans Semi Condensed", sans-serif;
+  --font-secondary: 'Noticia Text', serif;
+
+  --color-primary: #00B7E1;
+  --color-primary-light: #d8f0f8;
+  --color-secondary: #008FC3;
+
+  --color-bg: #f8f8f8;
+  --color-surface: #f0f0f8;
+  --color-surface-alt: #e8f0f8;
+  --color-accent: #e8f8f0;
+
+  --color-border: #e0f0f0;
+  --color-text-primary: #1a1a1a;
+  --color-text-secondary: #4d4d4d;
+
+  --color-warning: #FFD25B;
+  --color-error: #FF5B5B;
+  --color-success: #4BD37B;
+  
+}
+
+body{
+  background-color: var(--color-primary-light);
+  font-family: var(--font-primary);
+}
+
+h1, h2, h3, h4, h5, h6 {
+  font-family: var(--font-secondary);
+}
+
+button{
+  cursor: pointer;
+}
+
+
