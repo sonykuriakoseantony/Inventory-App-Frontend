@@ -1,5 +1,5 @@
-const serverURL = "http://localhost:3000"
+// const serverURL = "http://localhost:3000"
 
-// const serverURL = "https://resume-builder-server-4v3t.onrender.com"
+const serverURL = "https://inventory-app-server-6ljb.onrender.com"
 
 export default serverURL
